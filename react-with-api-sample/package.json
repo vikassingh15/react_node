@@ -1,0 +1,54 @@
+{
+  "name": "@civicsource/interview",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Archon HTML5 Interview Test",
+  "main": "server.js",
+  "author": "Archon Information Systems",
+  "scripts": {
+    "start": "babel-node server/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/civicsource/interview.git"
+  },
+  "dependencies": {
+    "@version/react-router-v3": "^1.0.0",
+    "accounting": "^0.4.1",
+    "axios": "^0.19.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "html-webpack-plugin": "^3.2.0",
+    "http-proxy": "^1.16.2",
+    "open": "0.0.5",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-bootstrap-table": "^4.3.1",
+    "react-currency-input": "^1.3.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "1.1.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.0.0",
+    "eslint-config-civicsource": "^6.1.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ]
+  }
+}

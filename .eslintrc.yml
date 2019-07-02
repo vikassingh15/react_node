@@ -1,0 +1,4 @@
+extends:
+  - civicsource
+rules:
+  no-console: off
